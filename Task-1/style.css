@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "League Spartan", sans-serif;
+    resize: both;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(222, 26%, 31%);
+}
+.big-box {
+    width: 540px;
+}
+.calc {
+    max-height: 10px;
+    padding: 40px 0 40px 8px;
+    color: hsl(0, 0%, 100%);
+    font-size: 24px;
+}
+.display {
+    height: 128px;
+    background-color: hsl(224, 36%, 15%);
+    color: hsl(0, 0%, 100%);
+    font-size: 48px;
+    text-align: end;
+    padding: 40px 34px 48px 0;
+    border-radius: 10px;
+}
+.box {
+    height: 484px;
+    background-color: hsl(223, 31%, 20%);
+    border-radius: 12px;
+    margin-top: 24px;
+}
+.box-margin {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 32px 30px 32px 30px;
+    column-gap: 25px;
+    row-gap: 24px;
+}
+.numbtn {
+    width: 100px;
+    height: 64px;
+    border-radius: 7px;
+    background-color: hsl(30, 25%, 89%);
+    color: hsl(221, 14%, 31%);
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 -4px hsl(28, 16%, 65%);
+}
+.numbtn:hover {
+    background-color: hsl(0, 0%, 100%);
+}
+
+#delete {
+    width: 100px;
+    height: 64px;
+    border-radius: 7px;
+    background-color: hsl(225, 21%, 49%);
+    box-shadow: inset 0px -4px hsl(224, 28%, 35%);
+    color: hsl(0, 0%, 100%);
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#delete:hover {
+    background-color: #a2b3e1;
+}
+
+#reset {
+    background-color: hsl(225, 21%, 49%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: inset 0px -4px hsl(224, 28%, 35%);
+    border-radius: 7px;
+    grid-column: 1 / 3;
+    height: 64px;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#reset:hover {
+    background-color: #a2b3e1;
+}
+#equal {
+    grid-column: 3 / 5;
+    height: 64px;
+    border-radius: 7px;
+    background-color: hsl(6, 63%, 50%);
+    box-shadow: inset 0 -4px hsl(6, 70%, 34%);
+    color: hsl(0, 0%, 100%);
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#equal:hover {
+    background-color: #f96c5b;
+}
+.star {
+    padding-top: 20px;
+}

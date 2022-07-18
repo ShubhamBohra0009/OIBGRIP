@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oasis-Infobyte_Task1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="big-box">
+      <div class="calc">calc</div>
+      <div class="display" id="display"></div>
+      <div class="box">
+        <div class="box-margin">
+          <span class="numbtn">7</span>
+          <span class="numbtn">8</span>
+          <span class="numbtn">9</span>
+          <span id="delete" onclick="deleted()">DEL</span>
+          <span class="numbtn">4</span>
+          <span class="numbtn">5</span>
+          <span class="numbtn">6</span>
+          <span class="numbtn">+</span>
+          <span class="numbtn">1</span>
+          <span class="numbtn">2</span>
+          <span class="numbtn">3</span>
+          <span class="numbtn">-</span>
+          <span class="numbtn">.</span>
+          <span class="numbtn">0</span>
+          <span class="numbtn">/</span>
+          <span class="numbtn star">*</span>
+          <span id="reset" onclick="reset()">RESET</span>
+          <span id="equal" onclick="result()">=</span>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
